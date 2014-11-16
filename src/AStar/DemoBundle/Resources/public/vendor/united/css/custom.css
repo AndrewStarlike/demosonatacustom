@@ -1,0 +1,25 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 17, 2014, 12:00:15 AM
+    Author     : andrewstarlike
+*/
+
+.box.box-primary, .box.box-success {
+    border-top-color: #dd4814;
+}
+
+.btn.btn-primary, .btn.btn-success {
+    color: #ffffff;
+    background-color: #dd4814;
+    border-color: #dd4814;
+}
+
+.btn.btn-primary:hover, .btn.btn-success:hover {
+    color: #ffffff;
+    background-color: #ae3910;
+    border-color: #a5360f;
+}
