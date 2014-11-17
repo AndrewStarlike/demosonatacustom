@@ -33,6 +33,7 @@ If you get any warnings or recommendations, fix them before moving on.
 3) Create database and run the migration
 --------------------------------
 Edit root/app/config/parameters.yml with your database credentials
+
 Run these commands:
 
     console doctrine:database:create 
