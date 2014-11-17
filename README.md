@@ -30,7 +30,14 @@ Access the `config.php` script from a browser:
 
 If you get any warnings or recommendations, fix them before moving on.
 
-3) Browsing the Demo Application
+3) Create database and run the migration
+--------------------------------
+Edit root/app/config/parameters.yml with your database credentials
+Run these commands:
+    console doctrine:database:create 
+    console doctrine:migrations:migrate 
+
+4) Browsing the Demo Application
 --------------------------------
 
 Congratulations! You're now ready to use the demo.
