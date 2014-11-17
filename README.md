@@ -34,6 +34,7 @@ If you get any warnings or recommendations, fix them before moving on.
 --------------------------------
 Edit root/app/config/parameters.yml with your database credentials
 Run these commands:
+
     console doctrine:database:create 
     console doctrine:migrations:migrate 
 
